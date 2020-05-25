@@ -1,0 +1,13 @@
+(cl:defpackage upo_msgs-msg
+  (:use )
+  (:export
+   "<PERSONGOALARRAYUPO>"
+   "PERSONGOALARRAYUPO"
+   "<PERSONGOALUPO>"
+   "PERSONGOALUPO"
+   "<PERSONPOSEARRAYUPO>"
+   "PERSONPOSEARRAYUPO"
+   "<PERSONPOSEUPO>"
+   "PERSONPOSEUPO"
+  ))
+

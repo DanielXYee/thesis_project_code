@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="upo_social_layer" pkg="upo_social_layer" type="upo_social_layer">
+  <param name="enabled" type="bool" value="True" />
+  <param name="only_proxemics" type="bool" value="False" />
+  <param name="w1" type="double" value="0.1" />
+  <param name="w2" type="double" value="0.5" />
+  <param name="w3" type="double" value="0.4" />
+  <param name="w4" type="double" value="0.0" />
+  <param name="w5" type="double" value="0.0" />
+</node>
+\endverbatim
+

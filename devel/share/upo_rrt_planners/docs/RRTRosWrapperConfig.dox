@@ -1,0 +1,21 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~solve_time" : \b [double] time that the RRT is allowed to plan a path min: 0.1, default: 0.5, max: 9.9
+- \b "~visualize_rrt_tree" : \b [bool] Whether or not to publish the rrt tree for visualization purposes min: False, default: True, max: True
+- \b "~visualize_costmap" : \b [bool] Whether or not to publish the costmap for visualization purposes min: False, default: True, max: True
+- \b "~show_statistics" : \b [bool] Whether or not to print on the screen the RRT statistics min: False, default: True, max: True
+- \b "~path_smoothing" : \b [bool] Whether or not to do a simple smoothing of the RRT path min: False, default: True, max: True
+- \b "~smoothing_samples" : \b [int] If 'path_smoothing is enabled', it indicates the number of samples to include in the window for smoothing min: 0, default: 5, max: 100
+- \b "~goal_bias" : \b [double] Percentage of goal biasing min: 0.0, default: 0.05, max: 20.0
+- \b "~max_rrt_insertion_dist" : \b [double] Max distance (meters) to insert a new node min: 0.0, default: 0.25, max: 5.0
+- \b "~rrtstar_first_path_biasing" : \b [bool] Whether or not to bias the sampling from the first solution found min: False, default: False, max: True
+- \b "~rrtstar_first_path_bias" : \b [double] Percentage of sampling from the first solution found min: 0.0, default: 0.8, max: 1.0
+- \b "~rrtstar_first_path_stddev" : \b [double] Standard deviation (m) around the first solution found to sample from min: 0.0, default: 0.4, max: 4.0
+- \b "~full_path_biasing" : \b [bool] Whether or not to bias the sampling from a plath passed min: False, default: True, max: True
+- \b "~full_path_bias" : \b [double] Percentage of sampling from the path passed min: 0.0, default: 0.8, max: 1.0
+- \b "~full_path_stddev" : \b [double] Standard deviation (m) around the path passed to sample from min: 0.0, default: 1.0, max: 4.0
+- \b "~gmm_biasing" : \b [bool] Whether or not to bias the sampling from a GMM min: False, default: False, max: True
+- \b "~gmm_bias" : \b [double] Percentage of sampling from the GMM min: 0.0, default: 0.95, max: 1.0
+

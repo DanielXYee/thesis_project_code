@@ -1,0 +1,8 @@
+prefix=/home/im_hongxian_yi/catkin_ws/devel
+
+Name: upo_launchers
+Description: Description of upo_launchers
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

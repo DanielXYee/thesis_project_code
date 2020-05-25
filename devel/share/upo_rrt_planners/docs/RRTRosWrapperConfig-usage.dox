@@ -1,0 +1,22 @@
+\subsubsection usage Usage
+\verbatim
+<node name="upo_rrt_planners" pkg="upo_rrt_planners" type="upo_rrt_planners">
+  <param name="solve_time" type="double" value="0.5" />
+  <param name="visualize_rrt_tree" type="bool" value="True" />
+  <param name="visualize_costmap" type="bool" value="True" />
+  <param name="show_statistics" type="bool" value="True" />
+  <param name="path_smoothing" type="bool" value="True" />
+  <param name="smoothing_samples" type="int" value="5" />
+  <param name="goal_bias" type="double" value="0.05" />
+  <param name="max_rrt_insertion_dist" type="double" value="0.25" />
+  <param name="rrtstar_first_path_biasing" type="bool" value="False" />
+  <param name="rrtstar_first_path_bias" type="double" value="0.8" />
+  <param name="rrtstar_first_path_stddev" type="double" value="0.4" />
+  <param name="full_path_biasing" type="bool" value="True" />
+  <param name="full_path_bias" type="double" value="0.8" />
+  <param name="full_path_stddev" type="double" value="1.0" />
+  <param name="gmm_biasing" type="bool" value="False" />
+  <param name="gmm_bias" type="double" value="0.95" />
+</node>
+\endverbatim
+

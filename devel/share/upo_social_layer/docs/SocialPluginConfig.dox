@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~enabled" : \b [bool] Whether to apply this plugin or not min: False, default: True, max: True
+- \b "~only_proxemics" : \b [bool] calculate all the features or only the proxemics feature. min: False, default: False, max: True
+- \b "~w1" : \b [double] weight for the goal distance feature min: 0.0, default: 0.1, max: 1.0
+- \b "~w2" : \b [double] weight for the obstacle distance feature min: 0.0, default: 0.5, max: 1.0
+- \b "~w3" : \b [double] weight for the proxemics feature min: 0.0, default: 0.4, max: 1.0
+- \b "~w4" : \b [double] weight for the proxemics back feature min: 0.0, default: 0.0, max: 1.0
+- \b "~w5" : \b [double] weight for the proxemics right side feature min: 0.0, default: 0.0, max: 1.0
+

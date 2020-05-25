@@ -1,0 +1,14 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~upo_featureset" : \b [int] The upo feature set to be used. min: 0, default: 0, max: 1
+- \b "~stddev_person_front" : \b [double] std dev of the gaussian function in front of the person min: 0.2, default: 1.2, max: 3.0
+- \b "~stddev_person_aside" : \b [double] std dev of the gaussian function aside the person min: 0.2, default: 0.8, max: 3.0
+- \b "~stddev_person_right" : \b [double] std dev of the gaussian function placed to the right of the person min: 0.2, default: 0.8, max: 3.0
+- \b "~enable_grouping" : \b [bool] Whether or not to group the people detected min: False, default: False, max: True
+- \b "~stddev_group" : \b [double] std dev of the rounded gaussian function around a group of people min: 0.2, default: 0.8, max: 3.0
+- \b "~grouping_distance" : \b [double] Max distance in meters between people to consider that they are in the same group min: 0.5, default: 1.5, max: 2.5
+- \b "~interaction_target_id" : \b [int] Interaction target id min: -1, default: -1, max: 50000
+- \b "~it_remove_gaussian" : \b [bool] Whether or not to remove the Gaussian costs around the interaction target min: False, default: False, max: True
+

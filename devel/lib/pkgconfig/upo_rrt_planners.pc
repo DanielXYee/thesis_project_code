@@ -1,0 +1,8 @@
+prefix=/home/im_hongxian_yi/catkin_ws/devel
+
+Name: upo_rrt_planners
+Description: Description of upo_rrt_planners
+Version: 1.0.0
+Cflags: -I/home/im_hongxian_yi/catkin_ws/devel/include -I/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_rrt_planners/include
+Libs: -L${prefix}/lib -lupo_rrt_planners -lupo_rrt_planners_ros
+Requires: angles cmake_modules geometry_msgs nav_msgs roscpp rosconsole tf std_msgs visualization_msgs upo_msgs navigation_features gmm_sampling dynamic_reconfigure message_runtime

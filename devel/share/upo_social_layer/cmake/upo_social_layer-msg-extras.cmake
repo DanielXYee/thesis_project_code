@@ -1,0 +1,2 @@
+set(upo_social_layer_MESSAGE_FILES "")
+set(upo_social_layer_SERVICE_FILES "/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_social_layer/srv/Features.srv;/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_social_layer/srv/Cost.srv;/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_social_layer/srv/SetGoal.srv;/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_social_layer/srv/SetDemoPath.srv")

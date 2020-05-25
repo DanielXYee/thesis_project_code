@@ -1,0 +1,8 @@
+prefix=/home/im_hongxian_yi/catkin_ws/install
+
+Name: gmm_sampling
+Description: Description of gmm_sampling
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lgmm_sampling
+Requires: roscpp message_runtime visualization_msgs

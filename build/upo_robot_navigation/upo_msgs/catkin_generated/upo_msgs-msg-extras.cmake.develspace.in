@@ -1,0 +1,2 @@
+set(upo_msgs_MESSAGE_FILES "/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_msgs/msg/PersonPoseArrayUPO.msg;/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_msgs/msg/PersonPoseUPO.msg;/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_msgs/msg/PersonGoalArrayUPO.msg;/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_msgs/msg/PersonGoalUPO.msg")
+set(upo_msgs_SERVICE_FILES "")

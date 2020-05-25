@@ -1,0 +1,8 @@
+prefix=/home/im_hongxian_yi/catkin_ws/devel
+
+Name: gmm_sampling
+Description: Description of gmm_sampling
+Version: 0.0.0
+Cflags: -I/home/im_hongxian_yi/catkin_ws/devel/include -I/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/gmm_sampling/include
+Libs: -L${prefix}/lib -lgmm_sampling
+Requires: roscpp message_runtime visualization_msgs

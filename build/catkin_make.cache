@@ -1,0 +1,2 @@
+upo_nav_irl:upo_robot_navigation/gmm_sampling:upo_robot_navigation/navigation_features:upo_robot_navigation/path_prediction:upo_robot_navigation/upo_launchers:upo_robot_navigation/upo_msgs:upo_robot_navigation/upo_navigation:upo_robot_navigation/upo_rrt_planners:upo_robot_navigation/upo_social_layer
+-DCATKIN_DEVEL_PREFIX=/home/im_hongxian_yi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/im_hongxian_yi/catkin_ws/install -G Unix Makefiles
