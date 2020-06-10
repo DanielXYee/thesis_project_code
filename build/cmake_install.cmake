@@ -132,7 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/im_hongxian_yi/catkin_ws/build/upo_robot_navigation/upo_msgs/cmake_install.cmake")
   include("/home/im_hongxian_yi/catkin_ws/build/upo_robot_navigation/navigation_features/cmake_install.cmake")
   include("/home/im_hongxian_yi/catkin_ws/build/upo_robot_navigation/upo_rrt_planners/cmake_install.cmake")
-  include("/home/im_hongxian_yi/catkin_ws/build/upo_nav_irl/cmake_install.cmake")
+  include("/home/im_hongxian_yi/catkin_ws/build/upo_nav_gan/cmake_install.cmake")
   include("/home/im_hongxian_yi/catkin_ws/build/upo_robot_navigation/upo_social_layer/cmake_install.cmake")
   include("/home/im_hongxian_yi/catkin_ws/build/upo_robot_navigation/upo_navigation/cmake_install.cmake")
 

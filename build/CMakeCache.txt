@@ -825,6 +825,12 @@ upo_msgs_DIR:PATH=/home/im_hongxian_yi/catkin_ws/devel/share/upo_msgs/cmake
 upo_msgs_SOURCE_DIR:STATIC=/home/im_hongxian_yi/catkin_ws/src/upo_robot_navigation/upo_msgs
 
 //Value Computed by CMake
+upo_nav_gan_BINARY_DIR:STATIC=/home/im_hongxian_yi/catkin_ws/build/upo_nav_gan
+
+//Value Computed by CMake
+upo_nav_gan_SOURCE_DIR:STATIC=/home/im_hongxian_yi/catkin_ws/src/upo_nav_gan
+
+//Value Computed by CMake
 upo_nav_irl_BINARY_DIR:STATIC=/home/im_hongxian_yi/catkin_ws/build/upo_nav_irl
 
 //Value Computed by CMake

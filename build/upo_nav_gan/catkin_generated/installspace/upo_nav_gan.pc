@@ -1,0 +1,8 @@
+prefix=/home/im_hongxian_yi/catkin_ws/install
+
+Name: upo_nav_gan
+Description: Description of upo_nav_gan
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: angles cmake_modules geometry_msgs nav_msgs roscpp pluginlib actionlib rosconsole roscpp message_runtime nav_core tf rospy std_msgs visualization_msgs upo_msgs navigation_features upo_rrt_planners rosbag
